@@ -1,0 +1,32 @@
+.section-2 {
+    margin: auto;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.services-header {
+    margin: auto;
+    max-width: 50%;
+}
+
+.header-card {
+    padding: 10px;
+}
+
+@media screen and (max-width: 1730px) {
+    .section-2 {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .section-2 {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .section-2 {
+        max-width: 100%;
+    }
+}
