@@ -4,9 +4,6 @@
 	box-sizing: border-box;
 }
 
-
-/* Style the video: 100% width and height to cover the entire window */
-
 #myVideo {
 	position: fixed;
 	right: 0;
@@ -15,20 +12,14 @@
 	min-height: 100%;
 }
 
-
-/* Add some content at the bottom of the video/page */
-
 .content {
 	position: fixed;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.5);
-	color: #f1f1f1;
+	background: url(hhttps://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Background%20Images/TV%20Friend%20Channel.png) left bottom no-repeat;
+	background-size: cover;
 	width: 100%;
 	padding: 20px;
 }
-
-
-/* Style the button used to pause/play the video */
 
 #myBtn {
 	width: 200px;
@@ -39,7 +30,15 @@
 	color: #fff;
 	cursor: pointer;
 }
-
+button.MyButtonClass {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
 #myBtn:hover {
 	background: #ddd;
 	color: black;
@@ -47,7 +46,6 @@
 
 h1 {
 	font-size: 0.1px;
-	/* 0 gets disregarded by Internet Explorer, 0.1 gets interpreted right by every browser */
 }
 
 div.a {
@@ -136,6 +134,8 @@ a {
 		<br>
 		<br> </div>
 	<button id="myBtn" onclick="pausebuttoninitalizer(undefined)">Pause</button>
+	<button class="myButtonClass" onclick="redirect(http://6100mifi-server-001.000webhostapp.com/cdn/html1.html)">Launch Retro Mode</button>
+	<button class="myButtonClass" onclick="redirect(https://6100mspersonalxc24sitedatastorage.6100m.repl.co/)">Launch Backup Mode</button>
 	<audio src="https://6100mifi-server-001.000webhostapp.com/cdn/Everybody%20votes%20channel%20music%20-%20Suggest%20a%20question%20(one%20of%20the%20chillest%20wii%20song).mp3" autoplay>
 		<p>
 			<div class="b">If you are reading this, it is because your browser does not support the audio element.</div>
@@ -143,9 +143,7 @@ a {
 		<embed src="https://6100mifi-server-001.000webhostapp.com/cdn/Everybody%20votes%20channel%20music%20-%20Suggest%20a%20question%20(one%20of%20the%20chillest%20wii%20song).mp3" width="1" height="1" hidden="true" /> </audio>
 </div>
 <script>
-// Get the video
 var video = document.getElementById("myVideo");
-// Get the button
 var btn = document.getElementById("myBtn");
 
 function pausebuttoninitalizer(nothing) {
@@ -158,6 +156,24 @@ function pausebuttoninitalizer(nothing) {
 		btn.innerHTML = "Play";
 		return nothing
 	}
+}
+function redirect (url) {
+    var ua        = navigator.userAgent.toLowerCase(),
+        isIE      = ua.indexOf('msie') !== -1,
+        version   = parseInt(ua.substr(4, 2), 10);
+
+    // Internet Explorer 8 and lower
+    if (isIE && version < 9) {
+        var link = document.createElement('a');
+        link.href = url;
+        document.body.appendChild(link);
+        link.click();
+    }
+
+    // All other browsers can use the standard window.location.href (they don't lose HTTP_REFERER like Internet Explorer 8 & lower does)
+    else { 
+        window.location.href = url; 
+    }
 }
 </script>
 
