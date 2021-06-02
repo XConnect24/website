@@ -23,20 +23,47 @@
 
 #myBtn {
 	width: 200px;
-	font-size: 18px;
+	font-size: 14px;
 	padding: 10px;
 	border: none;
 	background: #000;
 	color: #fff;
 	cursor: pointer;
 }
-button.MyButtonClass {
+button.MyButtonClass0 {
 	width: 200px;
-	font-size: 18px;
+	font-size: 14px;
 	padding: 10px;
 	border: none;
 	background: #000;
 	color: #fff;
+	cursor: pointer;
+}
+button.MyButtonClass1 {
+	width: 200px;
+	font-size: 14px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #ffe;
+	cursor: pointer;
+}
+button.MyButtonClass2 {
+	width: 200px;
+	font-size: 14px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #ffd;
+	cursor: pointer;
+}
+button.MyButtonClass3 {
+	width: 200px;
+	font-size: 14px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #ffc;
 	cursor: pointer;
 }
 #myBtn:hover {
@@ -117,30 +144,27 @@ a {
 <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/favicon-16x16.png" sizes="16x16">
 <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/favicon-32x32.png" sizes="32x32">
 <video autoplay muted loop id="myVideo">
-	<source src="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Background%20Videos/Everybody%20Votes%20Channel.mp4" type="video/mp4"> </video>
+<source src="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Background%20Videos/Everybody%20Votes%20Channel.mp4" type="video/mp4"> </video>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class="content">
 	<div class="d">
-		<p>
-			<div class="c">Everybody Votes Channel</div>
-		</p>
+		<p><div class="c">Everybody Votes Channel</div></p>
 		<br>
 		<br>
 		<div class="a">Answer questions and tell the world your answer in national and worldwide polls.</div>
 		<br>
 		<br>
-		<div class="e">Please install the font the channel used <a style="text-decoration:none;" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Fonts/WiiNTLGPGothic-Regular.ttf"><span style="text-shadow: 2px 1px #000000; color: #FAC80C;">here</span></a> for better results. The Wii U and 3DS already use this!</p>
-		</div>
+		<div class="e">Please install the font the channel used <a style="text-decoration:none;" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Fonts/WiiNTLGPGothic-Regular.ttf"><span style="text-shadow: 2px 1px #000000; color: #FAC80C;">here</span></a>for better results. The Wii U and 3DS already use this!</p></div>
 		<br>
-		<br> </div>
-	<button id="myBtn" onclick="pausebuttoninitalizer(undefined)">Pause</button>
-	<button class="myButtonClass" onclick="redirect(http://6100mifi-server-001.000webhostapp.com/cdn/html1.html)">Launch Retro Mode</button>
-	<button class="myButtonClass" onclick="redirect(https://6100mspersonalxc24sitedatastorage.6100m.repl.co/)">Launch Backup Mode</button>
-	<audio src="https://6100mifi-server-001.000webhostapp.com/cdn/Everybody%20votes%20channel%20music%20-%20Suggest%20a%20question%20(one%20of%20the%20chillest%20wii%20song).mp3" autoplay>
-		<p>
-			<div class="b">If you are reading this, it is because your browser does not support the audio element.</div>
-		</p>
-		<embed src="https://6100mifi-server-001.000webhostapp.com/cdn/Everybody%20votes%20channel%20music%20-%20Suggest%20a%20question%20(one%20of%20the%20chillest%20wii%20song).mp3" width="1" height="1" hidden="true" /> </audio>
+		<br>
+	</div>
+		<button id="myBtn" class="MyButtonClass0" onclick="pausebuttoninitalizer(undefined)">Pause</button>
+		<button class="myButtonClass1" onclick="redirect(http://6100mifi-server-001.000webhostapp.com/cdn/html1.html)">Launch Retro Mode</button>
+		<button class="myButtonClass2" onclick="redirect(https://6100mspersonalxc24sitedatastorage.6100m.repl.co/)">Launch Backup Mode</button>
+		<button class="myButtonClass3" onclick="redirect(https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js)">Download Video JS Library</button>
+		<audio src="https://6100mifi-server-001.000webhostapp.com/cdn/Everybody%20votes%20channel%20music%20-%20Suggest%20a%20question%20(one%20of%20the%20chillest%20wii%20song).mp3" autoplay>
+		<p><div class="b">If you are reading this, it is because your browser does not support the audio element.</div></p>
+		<embed src="https://6100mifi-server-001.000webhostapp.com/cdn/Everybody%20votes%20channel%20music%20-%20Suggest%20a%20question%20(one%20of%20the%20chillest%20wii%20song).mp3" width="1" height="1" hidden="true"/></audio>
 </div>
 <script>
 var video = document.getElementById("myVideo");
@@ -162,7 +186,6 @@ function redirect (url) {
         isIE      = ua.indexOf('msie') !== -1,
         version   = parseInt(ua.substr(4, 2), 10);
 
-    // Internet Explorer 8 and lower
     if (isIE && version < 9) {
         var link = document.createElement('a');
         link.href = url;
@@ -170,7 +193,6 @@ function redirect (url) {
         link.click();
     }
 
-    // All other browsers can use the standard window.location.href (they don't lose HTTP_REFERER like Internet Explorer 8 & lower does)
     else { 
         window.location.href = url; 
     }
