@@ -191,17 +191,17 @@ var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 
 function Redirect1(nothing) {
-	redirect("https://6100mifi-server-001.000webhostapp.com/cdn/html1.html")
+	redirect("https://6100mifi-server-001.000webhostapp.com/cdn/html1.html", undefined)
 	return nothing
 }
 
 function Redirect2(nothing) {
-	redirect("https://6100mspersonalxc24sitedatastorage.6100m.repl.co/")
+	redirect("https://6100mspersonalxc24sitedatastorage.6100m.repl.co/", undefined)
 	return nothing
 }
 
 function Redirect3(nothing) {
-	redirect("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js")
+	redirect("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js", undefined)
 	return nothing
 }
 
@@ -217,7 +217,7 @@ function pausebuttoninitalizer(nothing) {
 	}
 }
 
-function redirect(url) {
+function redirect(url, nothing) {
 	var ua = navigator.userAgent.toLowerCase(),
 		isIE = ua.indexOf('msie') !== -1,
 		version = parseInt(ua.substr(4, 2), 10);
@@ -226,8 +226,10 @@ function redirect(url) {
 		link.href = url;
 		document.body.appendChild(link);
 		link.click();
+		return nothing
 	} else {
 		window.location.href = url;
+		return nothing
 	}
 }
 </script>
