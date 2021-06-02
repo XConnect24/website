@@ -1,0 +1,163 @@
+<html>
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+// Get the button
+var btn = document.getElementById("myBtn");
+
+function pausebuttoninitalizer(nothing) {
+	if(video.paused) {
+		video.play();
+		btn.innerHTML = "Pause";
+		return nothing
+	} else {
+		video.pause();
+		btn.innerHTML = "Play";
+		return nothing
+	}
+}
+</script>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+	position: fixed;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+}
+
+
+/* Style the button used to pause/play the video */
+
+#myBtn {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+
+#myBtn:hover {
+	background: #ddd;
+	color: black;
+}
+
+h1 {
+	font-size: 0.1px;
+	/* 0 gets disregarded by Internet Explorer, 0.1 gets interpreted right by every browser */
+}
+
+div.a {
+	font-size: 15px;
+}
+
+div.b {
+	font-size: large;
+}
+
+div.c {
+	font-size: 150%;
+}
+
+div.d {
+	font-size: 88%;
+}
+
+div.e {
+	font-size: 77%;
+}
+
+div.f {
+	font-size: 66%;
+}
+
+body {
+	background: url(https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Background%20Images/News%20Channel.png) left bottom no-repeat;
+	background-size: cover;
+}
+
+html {
+	min-height: 100%;
+	color: #61666c;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height: 2em;
+}
+
+html {
+	padding: 45px 25px;
+	font: 13px 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	height: cover !important;
+	margin: 0px;
+	cursor: url("https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Cursors/wii.cur"), default;
+	color: #000000;
+}
+
+a {
+	color: #2D5369;
+	cursor: url("https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Cursors/wii-hover.cur"), default;
+	text-decoration: none;
+}
+</style>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" sizes="57x57" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/iOS%20Icons/Everybody%20Votes%20Channel/favicon-32x32.png" sizes="32x32">
+<!-- The video -->
+<!-- Thanks to Larsenv for making some of these assets! Despite everything, you are still cool :) -->
+<video autoplay muted loop id="myVideo">
+	<source src="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Background%20Videos/Everybody%20Votes%20Channel.mp4" type="video/mp4"> </video>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+	<div class="g">
+		<div class="d">
+			<p>Everybody Votes Channel
+				<br>
+				<br>Answer questions and tell the world your answer in national and worldwide polls.
+				<br>
+				<br>Please install the font the channel used <a style="text-decoration:none;" href="https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Fonts/WiiNTLGPGothic-Regular.ttf"><span style="text-shadow: 2px 1px #000000; color: #FAC80C;">here</span></a> for better results. The Wii U and 3DS already use this!</p>
+			<br>
+			<br> </div>
+		<!-- Use a button to pause/play the video with JavaScript -->
+	</div>
+	<button id="myBtn" onclick="myFunction(undefined)">Pause</button>
+	<audio src="https://6100mifi-server-001.000webhostapp.com/cdn/Everybody%20votes%20channel%20music%20-%20Suggest%20a%20question%20(one%20of%20the%20chillest%20wii%20song).mp3" autoplay>
+		<p>If you are reading this, it is because your browser does not support the audio element.</p>
+		<embed src="https://6100mifi-server-001.000webhostapp.com/cdn/Everybody%20votes%20channel%20music%20-%20Suggest%20a%20question%20(one%20of%20the%20chillest%20wii%20song).mp3" width="1" height="1" hidden="true" /> </audio>
+</div>
+
+</html>
