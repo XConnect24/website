@@ -1,17 +1,26 @@
 var q = document.getElementById("i");
 var r = document.getElementById("k");
+
 function s(n) {
 	x("https://6100mifi-server-001.000webhostapp.com/cdn/html1.html", undefined)
 	return n
 }
+
 function t(n) {
 	x("https://6100mspersonalxc24sitedatastorage.6100m.repl.co/", undefined)
 	return n
 }
+
 function v(n) {
 	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js", undefined)
 	return n
 }
+
+function z(n) {
+	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/001/vidapi.css", undefined)
+	return n
+}
+
 function w(n) {
 	if(video.paused) {
 		q.play();
@@ -23,6 +32,7 @@ function w(n) {
 		return n
 	}
 }
+
 function x(u, n) {
 	var u = navigator.userAgent.toLowerCase(),
 		i = u.indexOf('msie') !== -1,
