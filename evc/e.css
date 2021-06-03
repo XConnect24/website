@@ -1,8 +1,3 @@
-* {
-	box-sizing: border-box;
-	font-family: 'q', Fallback, sans-serif;
-}
-
 #i {
 	position: fixed;
 	right: 0;
@@ -47,19 +42,13 @@ button.y {
 	background: url(https://6100m.github.io/News_Channel.webp) left bottom no-repeat;
 }
 
-#k:hover {
-	background: #ddd;
-	color: black;
-}
-
 h1 {
 	font-size: 0.1px;
 }
 
-
 div.d {
 	font-size: 150%;
-  position: fixed;
+	position: fixed;
 	bottom: 0;
 	background: url(https://6100m.github.io/TV_Friend_Channel.webp) left bottom no-repeat;
 	background-size: cover;
@@ -76,6 +65,8 @@ html {
 	color: #000000;
 	background: url(https://6100m.github.io/Wii_No_Ma_Weather.webp) left bottom no-repeat;
 	background-size: cover;
+	box-sizing: border-box;
+	font-family: 'q', Fallback, sans-serif;
 }
 
 a {
@@ -86,9 +77,8 @@ a {
 
 @font-face {
 	font-family: 'q';
-	src: url('https://6100m.github.io/data/webfont.eot');
+	src: url('https://6100m.github.io/data/webfont.eot'),
 	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'),
-	url('https://6100m.github.io/data/webfont.woff2') format('woff2'),
 	url('https://6100m.github.io/w.ttf')format('truetype');
 	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
