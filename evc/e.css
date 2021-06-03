@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: 'q', Fallback, sans-serif;
+  font-family: 'q', Fallback, sans-serif;
 }
 
 #i {
@@ -56,9 +56,10 @@ h1 {
 	font-size: 0.1px;
 }
 
+
 div.d {
-	font-size: 88%;
-	position: fixed;
+	font-size: 150%;
+  position: fixed;
 	bottom: 0;
 	background: url(https://6100m.github.io/TV_Friend_Channel.webp) left bottom no-repeat;
 	background-size: cover;
@@ -88,8 +89,7 @@ a {
 	src: url('https://6100m.github.io/data/webfont.eot');
 	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'),
 	url('https://6100m.github.io/data/webfont.woff2') format('woff2'),
-	url('https://6100m.github.io/data/webfont.woff') format('woff'),
-	url('https://6100m.github.io/wii.ttf')format('truetype');
+	url('https://6100m.github.io/w.ttf')format('truetype');
 	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
