@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: 'q', Fallback, sans-serif;
 }
 
 #i {
@@ -88,24 +89,6 @@ div.f {
 	font-size: 66%;
 }
 
-div.h {
-	font-size: 179%;
-}
-
-body {
-	background: url(https://6100m.github.io/News_Channel.webp) left bottom no-repeat;
-	background-size: cover;
-}
-
-html {
-	min-height: 100%;
-	color: #61666c;
-	font-weight: 400;
-	font-size: 1em;
-	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	line-height: 2em;
-}
-
 html {
 	padding: 45px 25px;
 	font: 13px 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -113,6 +96,8 @@ html {
 	margin: 0px;
 	cursor: url("https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Cursors/wii.cur"), default;
 	color: #000000;
+	background: url(https://6100m.github.io/News_Channel.webp) left bottom no-repeat;
+	background-size: cover;
 }
 
 a {
@@ -124,13 +109,8 @@ a {
 @font-face {
 	font-family: 'q';
 	src: url('https://6100m.github.io/data/webfont.eot'); /* IE9 Compat Modes */
-	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('https://6100m.github.io/wii.ttf')format('truetype');
+	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'), url('https://6100m.github.io/wii.ttf')format('truetype');
 	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-
-html {
-	font-family: 'q', Fallback, sans-serif;
 }
 
 span.p {
