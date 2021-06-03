@@ -51,6 +51,10 @@ button.o {
 	background: url(https://6100m.github.io/News_Channel_2.webp) left bottom no-repeat;
 }
 
+button.y {
+	background: url(https://6100m.github.io/Nintendo_Channel.webp) left bottom no-repeat;
+}
+
 #k:hover {
 	background: #ddd;
 	color: black;
@@ -130,5 +134,7 @@ html {
 }
 
 span.p {
-  padding: 6px;
+	padding: 6px;
+	text-shadow: 2px 1px #000000;
+	color: #FAC80C;
 }
