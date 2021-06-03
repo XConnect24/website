@@ -1,23 +1,43 @@
-var q = document.getElementById("i");
-var r = document.getElementById("k");
+function q() { 
+	n = document.getElementById("i");
+	return n
+}
+
+function r() {
+	n = document.getElementById("k");
+	return n
+}
+
+function h(a) {
+	n = Math.random().toString(36).substring(2);
+	console.log(a + n)
+	return n
+}
 
 function s(n) {
-	x("https://6100mifi-server-001.000webhostapp.com/cdn/html1.html", undefined)
+	x("https://6100mifi-server-001.000webhostapp.com/cdn/html1.html", h("Retro Seed Is: "))
 	return n
 }
 
 function t(n) {
-	x("https://6100mspersonalxc24sitedatastorage.6100m.repl.co/", undefined)
+	x("https://6100mspersonalxc24sitedatastorage.6100m.repl.co/", h("Backup Seed Is: ")))
 	return n
 }
 
 function v(n) {
-	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js", undefined)
+	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js", h("JS Download Seed Is: "))
 	return n
 }
 
 function z(n) {
-	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/001/vidapi.css", undefined)
+	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/001/vidapi.css", h(" Download Seed Is: "))
+	return n
+}
+
+function b(n) {
+	var e = location.host.split('.').reverse();
+	var z = '.' + e[1] + '.' + e[0];
+	x(z + "/evc/e.js")
 	return n
 }
 
