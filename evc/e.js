@@ -1,13 +1,3 @@
-function q() { 
-	n = document.getElementById("i");
-	return n
-}
-
-function r() {
-	n = document.getElementById("k");
-	return n
-}
-
 function h(a) {
 	n = Math.random().toString(36).substring(2);
 	console.log(a + n)
@@ -42,15 +32,15 @@ function b(n) {
 }
 
 function w(n) {
-	var s = q()
-	var t = r()
+	var q = document.getElementById("i");
+	var p = document.getElementById("k");
 	if(video.paused) {
-		s.play();
-		t.innerHTML = "Pause";
+		q.play();
+		p.innerHTML = "Pause";
 		return n
 	} else {
-		s.pause();
-		t.innerHTML = "Play";
+		q.pause();
+		p.innerHTML = "Play";
 		return n
 	}
 }
