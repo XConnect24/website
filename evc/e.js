@@ -42,13 +42,15 @@ function b(n) {
 }
 
 function w(n) {
+	var s = q()
+	var t = r()
 	if(video.paused) {
-		q.play();
-		r.innerHTML = "Pause";
+		s.play();
+		t.innerHTML = "Pause";
 		return n
 	} else {
-		q.pause();
-		r.innerHTML = "Play";
+		s.pause();
+		t.innerHTML = "Play";
 		return n
 	}
 }
