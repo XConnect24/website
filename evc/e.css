@@ -77,7 +77,7 @@ a {
 
 @font-face {
 	font-family: 'q';
-	src: url('https://6100m.github.io/data/webfont.eot'),
+	src: url('https://6100m.github.io/data/webfont.eot');
 	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'),
 	url('https://6100m.github.io/w.ttf')format('truetype');
 	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
