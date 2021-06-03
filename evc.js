@@ -1,29 +1,29 @@
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-function Redirect1(nothing) {
-	redirect("https://6100mifi-server-001.000webhostapp.com/cdn/html1.html", undefined)
-	return nothing
+var q = document.getElementById("i");
+var r = document.getElementById("k");
+function s(n) {
+	x("https://6100mifi-server-001.000webhostapp.com/cdn/html1.html", undefined)
+	return n
 }
-function Redirect2(nothing) {
-	redirect("https://6100mspersonalxc24sitedatastorage.6100m.repl.co/", undefined)
-	return nothing
+function t(n) {
+	x("https://6100mspersonalxc24sitedatastorage.6100m.repl.co/", undefined)
+	return n
 }
-function Redirect3(nothing) {
-	redirect("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js", undefined)
-	return nothing
+function v(n) {
+	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js", undefined)
+	return n
 }
-function pausebuttoninitalizer(n) {
+function w(n) {
 	if(video.paused) {
-		video.play();
-		btn.innerHTML = "Pause";
+		q.play();
+		r.innerHTML = "Pause";
 		return n
 	} else {
-		video.pause();
-		btn.innerHTML = "Play";
+		q.pause();
+		r.innerHTML = "Play";
 		return n
 	}
 }
-function redirect(u, n) {
+function x(u, n) {
 	var u = navigator.userAgent.toLowerCase(),
 		i = u.indexOf('msie') !== -1,
 		v = parseInt(u.substr(4, 2), 10);
