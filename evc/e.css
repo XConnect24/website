@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: 'q', Fallback, sans-serif;
+  font-family: 'q', Fallback, sans-serif;
 }
 
 #i {
@@ -53,7 +53,7 @@ button.o {
 }
 
 button.y {
-	background: url(https://6100m.github.io/Nintendo_Channel.webp) left bottom no-repeat;
+	background: url(https://6100m.github.io/News_Channel.webp) left bottom no-repeat;
 }
 
 #k:hover {
@@ -94,15 +94,15 @@ html {
 	font: 13px 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	height: cover !important;
 	margin: 0px;
-	cursor: url("https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Cursors/wii.cur"), default;
+	cursor: url("https://6100m.github.io/w.cur"), default;
 	color: #000000;
-	background: url(https://6100m.github.io/News_Channel.webp) left bottom no-repeat;
+	background: url(https://6100m.github.io/Wii_No_Ma_Weather.webp) left bottom no-repeat;
 	background-size: cover;
 }
 
 a {
 	color: #2D5369;
-	cursor: url("https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Cursors/wii-hover.cur"), default;
+	cursor: url("https://6100m.github.io/h.cur"), default;
 	text-decoration: none;
 }
 
