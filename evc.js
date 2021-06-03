@@ -1,21 +1,17 @@
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
-
 function Redirect1(nothing) {
 	redirect("https://6100mifi-server-001.000webhostapp.com/cdn/html1.html", undefined)
 	return nothing
 }
-
 function Redirect2(nothing) {
 	redirect("https://6100mspersonalxc24sitedatastorage.6100m.repl.co/", undefined)
 	return nothing
 }
-
 function Redirect3(nothing) {
 	redirect("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/000/vidapi.js", undefined)
 	return nothing
 }
-
 function pausebuttoninitalizer(n) {
 	if(video.paused) {
 		video.play();
@@ -27,7 +23,6 @@ function pausebuttoninitalizer(n) {
 		return n
 	}
 }
-
 function redirect(u, n) {
 	var u = navigator.userAgent.toLowerCase(),
 		i = u.indexOf('msie') !== -1,
