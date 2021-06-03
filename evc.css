@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-#myVideo {
+#i {
 	position: fixed;
 	right: 0;
 	bottom: 0;
@@ -10,7 +10,7 @@
 	min-height: 100%;
 }
 
-.content {
+.j {
 	position: fixed;
 	bottom: 0;
 	background: url(https://6100m.github.io/TV_Friend_Channel.webp) left bottom no-repeat;
@@ -19,7 +19,7 @@
 	padding: 20px;
 }
 
-#myBtn {
+#k {
 	background: url(https://6100m.github.io/Wii_no_Ma.webp) left bottom no-repeat;
 	background-size: cover;
 }
@@ -35,23 +35,23 @@ button {
 	background-size: cover;
 }
 
-button.MyButtonClass0 {
-	background: url(https://6100m.github.io/Wii_Squares.webp left bottom no-repeat;
+button.l {
+	background: url(https://6100m.github.io/Wii_Squares.webp) left bottom no-repeat;
 }
 
-button.MyButtonClass1 {
+button.m {
 	background: url(https://6100m.github.io/Photo_Channel.webp) left bottom no-repeat;
 }
 
-button.MyButtonClass2 {
+button.n {
 	background: url(https://6100m.github.io/Forecast_Channel.webp) left bottom no-repeat;
 }
 
-button.MyButtonClass3 {
+button.o {
 	background: url(https://6100m.github.io/News_Channel_2.webp) left bottom no-repeat;
 }
 
-#myBtn:hover {
+#k:hover {
 	background: #ddd;
 	color: black;
 }
@@ -118,7 +118,7 @@ a {
 }
 
 @font-face {
-	font-family: 'MyWebFont';
+	font-family: 'q';
 	src: url('https://6100m.github.io/data/webfont.eot'); /* IE9 Compat Modes */
 	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 	url('https://6100m.github.io/wii.ttf')format('truetype');
@@ -126,9 +126,9 @@ a {
 }
 
 html {
-	font-family: 'MyWebFont', Fallback, sans-serif;
+	font-family: 'q', Fallback, sans-serif;
 }
 
-span.PadMii {
+span.p {
   padding: 6px;
 }
