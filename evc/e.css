@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: 'q', Fallback, sans-serif;
+  font-family: 'q', Fallback, sans-serif;
 }
 
 #i {
@@ -9,15 +9,6 @@
 	bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
-}
-
-.j {
-	position: fixed;
-	bottom: 0;
-	background: url(https://6100m.github.io/TV_Friend_Channel.webp) left bottom no-repeat;
-	background-size: cover;
-	width: 100%;
-	padding: 20px;
 }
 
 #k {
@@ -65,10 +56,6 @@ h1 {
 	font-size: 0.1px;
 }
 
-div.a {
-	font-size: 15px;
-}
-
 div.b {
 	font-size: large;
 }
@@ -79,10 +66,12 @@ div.c {
 
 div.d {
 	font-size: 88%;
-}
-
-div.e {
-	font-size: 77%;
+  position: fixed;
+	bottom: 0;
+	background: url(https://6100m.github.io/TV_Friend_Channel.webp) left bottom no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 20px;
 }
 
 div.f {
@@ -96,7 +85,7 @@ html {
 	margin: 0px;
 	cursor: url("https://6100m.github.io/w.cur"), default;
 	color: #000000;
-	background: url(https://6100m.github.io/Wii_No_Ma_Weather.webp) left bottom no-repeat;
+  background: url(https://6100m.github.io/Wii_No_Ma_Weather.webp) left bottom no-repeat;
 	background-size: cover;
 }
 
@@ -109,7 +98,8 @@ a {
 @font-face {
 	font-family: 'q';
 	src: url('https://6100m.github.io/data/webfont.eot'); /* IE9 Compat Modes */
-	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'), url('https://6100m.github.io/wii.ttf')format('truetype');
+	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'),
+	url('https://6100m.github.io/wii.ttf')format('truetype');
 	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
