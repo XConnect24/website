@@ -13,14 +13,14 @@
 .content {
 	position: fixed;
 	bottom: 0;
-	background: url(https://6100m.github.io/TV_Friend_Channel.png) left bottom no-repeat;
+	background: url(https://6100m.github.io/TV_Friend_Channel.webp) left bottom no-repeat;
 	background-size: cover;
 	width: 100%;
 	padding: 20px;
 }
 
 #myBtn {
-	background: url(https://6100m.github.io/Wii_no_Ma.png) left bottom no-repeat;
+	background: url(https://6100m.github.io/Wii_no_Ma.webp) left bottom no-repeat;
 	background-size: cover;
 }
 
@@ -36,19 +36,19 @@ button {
 }
 
 button.MyButtonClass0 {
-	background: url(https://6100m.github.io/Wii_Squares.png) left bottom no-repeat;
+	background: url(https://6100m.github.io/Wii_Squares.webp left bottom no-repeat;
 }
 
 button.MyButtonClass1 {
-	background: url(https://6100m.github.io/Photo_Channel.png) left bottom no-repeat;
+	background: url(https://6100m.github.io/Photo_Channel.webp) left bottom no-repeat;
 }
 
 button.MyButtonClass2 {
-	background: url(https://6100m.github.io/Forecast_Channel.png) left bottom no-repeat;
+	background: url(https://6100m.github.io/Forecast_Channel.webp) left bottom no-repeat;
 }
 
 button.MyButtonClass3 {
-	background: url(https://6100m.github.io/News_Channel_2.png) left bottom no-repeat;
+	background: url(https://6100m.github.io/News_Channel_2.webp) left bottom no-repeat;
 }
 
 #myBtn:hover {
@@ -89,7 +89,7 @@ div.h {
 }
 
 body {
-	background: url(https://6100m.github.io/News_Channel.png) left bottom no-repeat;
+	background: url(https://6100m.github.io/News_Channel.webp) left bottom no-repeat;
 	background-size: cover;
 }
 
@@ -121,7 +121,7 @@ a {
 	font-family: 'MyWebFont';
 	src: url('https://6100m.github.io/data/webfont.eot'); /* IE9 Compat Modes */
 	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('https://raw.githubusercontent.com/larsenv/MarioCube-WC24/master/Fonts/WiiNTLGPGothic-Regular.ttf')format('truetype');
+	url('https://6100m.github.io/wii.ttf')format('truetype');
 	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
