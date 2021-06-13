@@ -1,0 +1,94 @@
+#i {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#k {
+	background: url(https://6100m.github.io/Wii_no_Ma.webp) left bottom no-repeat;
+	background-size: cover;
+}
+
+button {
+	width: 200px;
+	font-size: 14px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	background-size: cover;
+}
+
+button.l {
+	background: url(https://6100m.github.io/Wii_Squares.webp) left bottom no-repeat;
+}
+
+button.m {
+	background: url(https://6100m.github.io/Photo_Channel.webp) left bottom no-repeat;
+}
+
+button.n {
+	background: url(https://6100m.github.io/Forecast_Channel.webp) left bottom no-repeat;
+}
+
+button.o {
+	background: url(https://6100m.github.io/News_Channel_2.webp) left bottom no-repeat;
+}
+
+button.y {
+	background: url(https://6100m.github.io/News_Channel.webp) left bottom no-repeat;
+}
+
+h1 {
+	font-size: 0.1px;
+}
+
+div.d {
+	font-size: 150%;
+	position: fixed;
+	bottom: 0;
+	background: url(https://6100m.github.io/TV_Friend_Channel.webp) left bottom no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 20px;
+}
+
+html {
+	padding: 45px 25px;
+	/* Disabled until I compress the font
+	font: 13px 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	*/
+	height: cover !important;
+	margin: 0px;
+	cursor: url("https://6100m.github.io/w.cur"), default;
+	color: #000000;
+	background: url(https://6100m.github.io/Wii_No_Ma_Weather.webp) left bottom no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	/* Disabled until I compress the font
+	font-family: 'q', Fallback, sans-serif;
+	*/
+}
+
+a {
+	color: #2D5369;
+	cursor: url("https://6100m.github.io/h.cur"), default;
+	text-decoration: none;
+}
+/* Disabled until I compress it
+@font-face {
+	font-family: 'q';
+	src: url('https://6100m.github.io/data/webfont.eot');
+	src: url('https://6100m.github.io/data/webfont.eot?#iefix') format('embedded-opentype'),
+	url('https://6100m.github.io/w.ttf')format('truetype');
+	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+*/
+span.p {
+	padding: 6px;
+	text-shadow: 2px 1px #000000;
+	color: #FAC80C;
+}
