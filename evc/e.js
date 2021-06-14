@@ -20,7 +20,7 @@ function v(n) {
 }
 
 function z(n) {
-	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/001/vidapi.css", h(" Download Seed Is: "))
+	x("https://raw.githubusercontent.com/6100m/depot-sinjoh/master/site/apis/vidapi/001/vidapi.css", h("CSS Download Seed Is: "))
 	return n
 }
 
